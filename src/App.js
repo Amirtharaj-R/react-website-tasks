@@ -619,6 +619,58 @@ function App() {
           <img src="Assets/twelveth-sec-mob-img.png" alt="" />
         </div>
       </section>
+      <section class="thirteen-sec">
+        <div class="tenth-secs">
+          <div class="third-sec-head">
+            <p>Boost your Profile to achieve your dream school</p>
+          </div>
+          <div class="tenth-sec-cont">
+            <p>
+              In addition to your GRE score, your Profile takes your Application
+              to the top Grad-Schools in the World. CareerLabs offers India's
+              1st Profile Building Platform (Profile Booster) for you to build
+              an impressive profile and let top Universities take notice of your
+              Application.
+            </p>
+          </div>
+        </div>
+        <div class="thirteen-sec-head">
+          <p>Level-Up your Profile with Profile Booster</p>
+        </div>
+        <div class="thirteen-sec-bullet">
+          <ul>
+            <li>In-depth Profile Gap Analysis & Discussion</li>
+            <li>Personalized CV Review</li>
+            <li>Webinar Series</li>
+          </ul>
+        </div>
+        <div class="thirteen-sec-cols">
+          <div class="thirteen-sec-col-head">
+            <h2>
+              Profile Builder For
+              <br />
+              Master’s Key
+              <br />
+              Highlights
+            </h2>
+          </div>
+          <div class="thirteen-sec-line-img">
+            <img src="Assets/thirteen-sec-line-img.png" alt="" />
+          </div>
+          <div class="thirteen-sec-cont-col">
+            <p>Curated Diagnostic Tests</p>
+            <p>Personalised Guidance for Building CV</p>
+            <p>Profile Gap Analysis Call with our Mentors</p>
+            <p>Access to Exclusive EDX Courses</p>
+            <p>
+              Access to Internship Oppurtunitires that are driven by CareerLabs
+            </p>
+            <p>
+              Access to Exclusive Focus of the Month Sessions and Live Webinars
+            </p>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
