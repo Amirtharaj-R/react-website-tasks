@@ -203,6 +203,24 @@ function App() {
           </div>
         </div>
       </section>
+      <section class="fifth-sec">
+        <div class="third-sec-head">
+          <p>GRE comes with a restriction</p>
+        </div>
+        <div class="fifth-sec-display">
+          <div class="fifth-sec-img">
+            <img src="Assets/5th-restricted-area 1.png" alt="" />
+          </div>
+          <div class="fifth-sec-cont">
+            <p>
+              The GRE Score is valid for 5 years and an individual can reattempt
+              the GRE Exam in 21 days but only 5 times over a year. Apparently,
+              there is no lifetime limit on the number of times an individual
+              can attempt the GRE Exam.
+            </p>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
