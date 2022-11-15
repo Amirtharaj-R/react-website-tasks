@@ -221,6 +221,30 @@ function App() {
           </div>
         </div>
       </section>
+      <section class="sixthh-sec">
+        <div class="third-sec-head">
+          <p>Are you eligible to write the GRE Exam?</p>
+        </div>
+        <div class="sixthh-sec-cols">
+          <div class="sixthh-sec-img-col">
+            <img src="Assets/sixth-sec-col-img.png" alt="" />
+          </div>
+          <div class="sixthh-sec-line-center"></div>
+          <div class="sixthh-sec-col2">
+            <h3>Know here.</h3>
+            <p>
+              There's no such eligibility set by ETS for taking the GRE Exam.
+              There is no upper age limit for candidates. As this program is
+              intended for applicants who are willing to take admissions to Post
+              Graduate Programs, they are expected to possess a recognized
+              graduate degree. The candidates are expected to check the
+              eligibility criteria of the colleges/universities they are
+              applying for, after taking the GRE Exam.
+            </p>
+          </div>
+        </div>
+        <div class="sixthh-sec-line"></div>
+      </section>
     </>
   );
 }
