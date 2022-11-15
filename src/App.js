@@ -245,6 +245,38 @@ function App() {
         </div>
         <div class="sixthh-sec-line"></div>
       </section>
+      <section class="seventh-sec">
+        <div class="seventh-sec-head">
+          <h2>Make your mark in Top Universities!</h2>
+        </div>
+        <div class="seventh-sec-cols">
+          <div class="seventh-sec-col1">
+            <p>
+              If you’re planning to get into a top graduate program, you would
+              be aware of the importance of a good GRE score in the application
+              process. Byju's GRE program helps you prepare and achieve a 320+
+              score on the GRE Exam. The GRE scores would differ depending upon
+              the school you choose. The top 10 universities where you can
+              achieve admission are
+            </p>
+            <ol type="1">
+              <li>Massachusetts Institute of Technology (MIT)</li>
+              <li>Harvard</li>
+              <li>Stanford</li>
+              <li>University of California-Berkeley</li>
+              <li>University of Pennsylvania</li>
+              <li>Princeton</li>
+              <li>Yale</li>
+              <li>Carnegie Mellon University</li>
+              <li>University of Southern California</li>
+              <li>UCLA</li>
+            </ol>
+          </div>
+          <div class="seventh-sec-col2-img">
+            <img src="Assets/seventh-sec-col2-img.png" alt="" />
+          </div>
+        </div>
+      </section>
     </>
   );
 }
