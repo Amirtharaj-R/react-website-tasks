@@ -378,6 +378,116 @@ function App() {
           </div>
         </div>
       </section>
+      <section class="eleventh-sec">
+        <div class="third-sec-head">
+          <p>Why choose Byju’s GRE Program?</p>
+        </div>
+        <div class="eleventh-sec-cols">
+          <div class="eleventh-sec-col1">
+            <h2>
+              Advantages of
+              <br />
+              Online Coaching
+            </h2>
+          </div>
+          <div class="eleventh-sec-line-img">
+            <img src="Assets/eleventh-sec-line-img.png" alt="" />
+          </div>
+          <div class="eleventh-sec-cont-col">
+            <p>Convenience</p>
+            <p>Flexibility</p>
+            <p>Saves time and energy</p>
+            <p>Improves Efficiency</p>
+            <p>Cost Effective</p>
+            <p>Interactive</p>
+          </div>
+        </div>
+        <div class="eleventh-sec-next-col">
+          <h3>Top-notch Trainers</h3>
+          <p>
+            Learn from PN Santosh, the Founding member of Byju's is a
+            338-scorer, ISB alumnus, and Ex-McKinsey Consultant who has trained
+            over 60,000 students.
+          </p>
+          <h3>Our Learning Approach</h3>
+          <p>
+            Our Learning Methodology focuses on different levels of preparation
+            i.e learning approach for Beginners, Intermediaries, and Seasoned
+            students.
+          </p>
+        </div>
+        <div class="eleventh-box-head">
+          <p>The different stages of progressive preparation are</p>
+        </div>
+        <div class="eleventh-box-cols">
+          <div class="eleventh-sec-col">
+            <img src="Assets/eleventh-box-col-img1.png" alt="" />
+            <h4>For Beginners</h4>
+            <ul>
+              <li>
+                Comprehensive Lectures: End-to-end guidance in your GRE
+                preparation
+              </li>
+              <li>
+                High-quality Classes: Get guidance from 330+ scorer professors
+              </li>
+              <li>
+                Guidance and Live Classes: on basic GRE quants and verbals
+              </li>
+              <li>
+                Revision Classes: Guided mentorship program and assessment of
+                fragile areas
+              </li>
+            </ul>
+          </div>
+          <div class="eleventh-sec-col">
+            <img src="Assets/eleventh-box-col-img2.png" alt="" />
+            <h4>For Intermediaries</h4>
+            <ul>
+              <li>
+                Well-defined structure: Official guide questions with solutions
+              </li>
+              <li>
+                Access to an adaptive question bank: Help you narrow down your
+                preparation
+              </li>
+              <li>
+                Revisit lectures: To focus only on your shaky areas and build up
+                the level
+              </li>
+              <li>Diagnostic Tool: To improve your weak areas</li>
+              <li>
+                90 percentile stage: Continuous self-assessment and customized
+                study plan to fill the gap between your current stage and the 90
+                percentile stage.
+              </li>
+            </ul>
+          </div>
+          <div class="eleventh-sec-col">
+            <img src="Assets/eleventh-box-col-img3.png" alt="" />
+            <h4>For Seasoned Students</h4>
+            <ul>
+              <li>Library of 1000+ practice questions</li>
+              <li>
+                Analysis and feedback on your weak areas with proper reasonings
+              </li>
+              <li>Attend lectures to improve your fragile areas</li>
+              <li>
+                Utilize Test Analyser to become familiar with the GRE Exam
+                Pattern
+              </li>
+              <li>
+                Personal consulting sessions with our mentors to get the
+                best-laid schedule and timely reviews
+              </li>
+              <li>
+                Opt for Admission Consulting Services and get a chance of
+                admission in your dream grad school
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
