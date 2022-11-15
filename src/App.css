@@ -419,7 +419,7 @@
   margin: 0% 1%;
 }
 .eleventh-sec-col ul {
-  list-style-image: url("Assets/eleventh-sec-triangle-img.png");
+  /* list-style-image: url("Assets/eleventh-sec-triangle-img.png"); */
 }
 .eleventh-sec-col h4 {
   font-family: "Poppins";

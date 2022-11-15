@@ -277,6 +277,30 @@ function App() {
           </div>
         </div>
       </section>
+      <section class="eighth-sec">
+        <div class="third-sec-head">
+          <p>Fuel your preparation and achieve a 320+ score</p>
+        </div>
+        <div class="eighth-sec-img-col">
+          <img src="Assets/eighth-sec-img.png" alt="" />
+        </div>
+        <div class="eighth-sec-cont">
+          <p>
+            If you are looking to take the GRE Exam, you should aim at a score
+            of 320+. Byju's GRE Program helps you to achieve the desirable score
+            under the guidance of experts.
+          </p>
+          <p>
+            With the expertise of PN Santosh, 338 - scorer and ISB alumnus, a
+            Founding Member of Byju's Classes, learn the concepts with utmost
+            clarity and ace your GRE Exam.
+          </p>
+          <p>
+            The Byju’s provides a GRE learning program that makes your
+            preparation stand out from the crowd.
+          </p>
+        </div>
+      </section>
     </>
   );
 }
