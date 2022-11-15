@@ -339,6 +339,45 @@ function App() {
           </div>
         </div>
       </section>
+      <section class="tenth-sec">
+        <div class="tenth-secs">
+          <div class="third-sec-head">
+            <p>Practice till you Master</p>
+          </div>
+          <div class="tenth-sec-cont">
+            <p>
+              Warm up the required course with 1500+ Practice Questions & Video
+              solutions with an official guide to solutions. Also, get a chance
+              to take 5 Mock GRE test papers in our Student Portal before your
+              GRE Test.
+            </p>
+          </div>
+        </div>
+        <div class="tenth-secs tenth-secs-col2">
+          <div class="third-sec-head">
+            <p>Grab Free Membean Access</p>
+          </div>
+          <div class="tenth-sec-cont">
+            <p>
+              Get absolutely free access to Membean to improve your vocabulary
+              for GRE in a structured way through 5 audiovisual techniques.
+            </p>
+          </div>
+        </div>
+        <div class="tenth-secs">
+          <div class="third-sec-head">
+            <p>Get a chance to rectify your errors</p>
+          </div>
+          <div class="tenth-sec-cont">
+            <p>
+              Experience an exclusive AI-based Diagnostic Toolkit Software that
+              spots your errors and provides real-time guidance to fix them on
+              the go. Spot your mistakes and improve your accuracy to avoid them
+              on the Test day.
+            </p>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
