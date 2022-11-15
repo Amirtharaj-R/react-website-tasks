@@ -40,6 +40,135 @@
   color: #565656;
   padding: 25px 100px;
 }
+
+/* third-sec */
+.third-sec {
+  background-color: #f2f2ff;
+  margin-top: 3%;
+}
+.third-sec-pad {
+  padding-bottom: 30px;
+}
+.third-sec-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.third-sec-head p {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 54px;
+  color: #565656;
+  border: 1px solid #0e0e0e;
+  border-radius: 40px;
+  text-align: center;
+  width: fit-content;
+  background-color: #f2f2ff;
+  padding: 0px 45px;
+  margin-top: -25px;
+}
+.third-sec-keyd {
+  display: flex;
+  justify-content: center;
+  margin: 3% 0%;
+}
+.third-sec-keyd-line {
+  border: 1px solid #565656;
+}
+.third-sec-keyd p {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 54px;
+  color: #565656;
+  background-color: #ffbaba;
+  width: fit-content;
+  padding: 0px 30px;
+  margin: 4px;
+}
+.third-sec-Dots {
+  display: flex;
+  justify-content: center;
+}
+.third-sec-Dots-col4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  column-gap: 70px;
+  margin-top: 10px;
+  margin-bottom: 3%;
+}
+.third-sec-Dots-col4-2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+  margin-top: 10px;
+  margin-bottom: 3%;
+}
+.third-sec-Dots-col4-cols {
+  border: 1px solid #565656;
+  height: fit-content;
+}
+.third-sec-Dots-col4-col4 {
+  margin-right: 20px;
+}
+.third-sec-Dots-col4-col3 h4 {
+  text-align: left !important;
+}
+.third-sec-Dots-col4-cols p {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  color: #565656;
+  background-color: #ffbaba;
+  width: full-width;
+  padding: 0px 25px;
+  margin: 3px;
+  text-align: center;
+}
+.third-sec-Dots-col4-cols h4 {
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  color: #565656;
+  padding: 0px 20px;
+}
+.third-sec-dot-sec-mob-view {
+  display: none;
+}
+.third-sec-content {
+  display: flex;
+
+  column-gap: 15px;
+  padding: 0% 20%;
+}
+.third-sec-bullet-cont,
+.third-sec-Arrow-img {
+  margin-top: 3%;
+}
+.third-sec-bullet-cont p {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  color: #565656;
+}
+.third-sec-bullet-cont ol li {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #565656;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+
 /* ---------------> */
 /* ------------------------------------------------------ >>>>>>>>>>>>>>>>>>>>>>>>*/
 /* ---------------------------  Mobile VIEW   ------------------------------------*/
@@ -65,6 +194,53 @@
     font-size: 14px;
     line-height: 22px;
     padding: 10px 15px;
+  }
+  /* third sec mobile view */
+  .third-sec {
+    margin-top: 5%;
+  }
+  .third-sec-head p {
+    font-size: 11px;
+    line-height: 25px;
+    padding: 0px 25px;
+    margin-top: -15px;
+  }
+  .third-sec-keyd p {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0px 15px;
+    margin: 3px;
+  }
+  .third-sec-dot-sec {
+    display: none;
+  }
+  .third-sec-dot-sec-mob-view {
+    display: block;
+  }
+  .mobile-dot-sec-img {
+    align-items: center;
+    padding: 2%;
+  }
+  .mobile-dot-sec-img img {
+    width: 100%;
+  }
+  .third-sec-content {
+    padding: 0%;
+  }
+  .third-sec-bullet-cont p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .third-sec-bullet-cont ol li {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 11px;
+    margin-top: 8px;
+    margin-left: 25px;
+  }
+  .third-sec-Arrow-img img {
+    margin-top: 4px;
+    width: 20px;
   }
 }
 /* ----------------------------------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -92,5 +268,25 @@
     font-size: 20px;
     line-height: 28px;
     padding: 15px 35px;
+  }
+  /* Third sec Tab view */
+  .third-sec-head p {
+    font-size: 24px;
+  }
+  .third-sec-dot-sec {
+    display: none;
+  }
+  .third-sec-dot-sec-mob-view {
+    display: block;
+  }
+  .mobile-dot-sec-img {
+    align-items: center;
+    padding: 2%;
+  }
+  .mobile-dot-sec-img img {
+    width: 100%;
+  }
+  .third-sec-content {
+    padding: 0% 10%;
   }
 }
