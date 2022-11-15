@@ -671,6 +671,57 @@ function App() {
           </div>
         </div>
       </section>
+      <section class="fourtinth-sec">
+        <div class="tenth-secs">
+          <div class="third-sec-head">
+            <p>Register now and stay ahead</p>
+          </div>
+          <div class="tenth-sec-cont">
+            <p>
+              It's high time to prepare for the GRE and take the GRE Exam if
+              you're planning to pursue your Masters/Ph.D. in 2023! Why wait?
+              Register with us for the GRE Expert to reach out to you and
+              understand your career needs. We have also partnered with various
+              payment partners for Easy EMI and No cost EMI options. Rejuvenate
+              your GRE preparation now and achieve your dream of getting into
+              top Universities!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="last-sec">
+        <div class="third-sec-head">
+          <p>Kickstart your GRE Preparation from us</p>
+        </div>
+        <div class="last-sec-form">
+          <form>
+            <input
+              type="text"
+              name="Gre-name"
+              id="Gre-Name"
+              placeholder="Name"
+            />
+            <input
+              type="email"
+              name="Gre-email"
+              id="Gre-Email"
+              placeholder="Email"
+            />
+            <input
+              type="numer"
+              name="Gre-phone"
+              id="Gre-Phone"
+              placeholder="Phone"
+            />
+          </form>
+          <div class="form-btn">
+            <button>Start your Prep now</button>
+          </div>
+        </div>
+      </section>
+      <section class="footer">
+        <p>© 2022 CareerLabs Technologies Pvt Ltd</p>
+      </section>
     </>
   );
 }
