@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* banner section */
+.bannersection {
+  padding: 0% 2%;
+  background-color: #8585f6;
+  height: auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.GRE-Head {
+  padding: 1%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bannersection-col {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 0% 2% 3% 2%;
+}
+.bannercontent p {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 88px;
+  color: #ffffff;
+}
+.bannerimg {
+  width: 700px;
+  height: 540px;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* ---------------> */
+/* ------------------------------------------------------ >>>>>>>>>>>>>>>>>>>>>>>>*/
+/* ---------------------------  Mobile VIEW   ------------------------------------*/
+/* ------------------------------------------------------->>>>>>>>>>>>>>>>>>>>>>> */
+/* ---------------> */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 767px) {
+  /* banner section mobile view */
+  .bannercontent p {
+    font-size: 16px;
+    line-height: 25px;
   }
-  to {
-    transform: rotate(360deg);
+  .bannerimg {
+    width: 200px;
+    height: 150px;
+  }
+  .GRE-Head img {
+    width: 110px;
+    height: 30px;
+  }
+}
+/* ----------------------------------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* ------------------------------- */
+/* -----------------------------------------  Tab VIEW  -------------------------------------------*/
+/* ------------------------------- */
+/* ------------------------------------------------------>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media (min-width: 768px) and (max-width: 1004px) {
+  /* banner section Tab view */
+  .bannercontent p {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .bannerimg {
+    width: 80%;
+    height: 60%;
+  }
+  .GRE-Head img {
+    width: 110px;
+    height: 30px;
   }
 }

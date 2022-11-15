@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section className="bannersection">
+      <div>
+        <div className="GRE-Head">
+          <img src="Assets/Careerlabs-logo.png" alt="" />
+        </div>
+        <div className="bannersection-col">
+          <div className="bannercontent">
+            <p>Empower your Career with the GRE Exam!</p>
+          </div>
+          <div>
+            <img className="bannerimg" src="Assets/Gre-banner-img.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
 
