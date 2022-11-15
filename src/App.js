@@ -162,6 +162,47 @@ function App() {
           </div>
         </div>
       </section>
+      <section class="fourth-sec">
+        <div class="fourth-sec-display">
+          <div class="fourth-sec-col1">
+            <img src="Assets/Forth-sec-col1-img.png" alt="" />
+            <h4>Analytical Writing Assignment</h4>
+            <p>Duration: 60 minutes.</p>
+            <h5>
+              In this section you will be given 2 tasks to complete in this
+              section i.e. Analyzing an issue (30-minutes) and Analyzing an
+              argument (30 minutes). This assignment measures your ability in
+              critical thinking, to articulate and support complex ideas, to
+              construct and evaluate arguments.
+            </h5>
+          </div>
+          <div class="fourth-sec-col-line"></div>
+          <div class="fourth-sec-col1">
+            <img src="Assets/Forth-sec-col2-img.png" alt="" />
+            <h4>Verbal Reasoning</h4>
+            <p>Duration: 60 minutes.</p>
+            <h5>
+              Verbal Reasoning consists of 2 sections (40 questions) with a time
+              duration of 60 minutes.It measures your ability to analyze and
+              evaluate written material in the form of sentences, recognize
+              relationships among words and concepts, and analyze and identify
+              the author's assumptions/perspective.
+            </h5>
+          </div>
+          <div class="fourth-sec-col-line"></div>
+          <div class="fourth-sec-col1">
+            <img src="Assets/Forth-sec-col3-img.png" alt="" />
+            <h4>Quantitative Reasoning</h4>
+            <p>Duration: 70 minutes.</p>
+            <h5>
+              Quantitative reasoning consists of 2 sections with a total of 40
+              questions to answer. This part of the exam measures your ability
+              to interpret and analyze quantitative information, analyze data,
+              and solve problems using mathematical techniques.
+            </h5>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

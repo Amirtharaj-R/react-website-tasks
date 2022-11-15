@@ -95,7 +95,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  column-gap: 70px;
+  column-gap: 85px;
   margin-top: 10px;
   margin-bottom: 3%;
 }
@@ -103,7 +103,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  column-gap: 40px;
+  column-gap: 75px;
   margin-top: 10px;
   margin-bottom: 3%;
 }
@@ -167,6 +167,42 @@
   color: #565656;
   margin-top: 15px;
   margin-left: 25px;
+}
+
+/* Fourth Sec */
+.fourth-sec-display {
+  display: flex;
+  column-gap: 30px;
+  padding: 2% 4%;
+  padding-bottom: 5%;
+}
+.fourth-sec-col-line {
+  border-right: 1px solid #565656;
+  height: 230px;
+  align-self: end;
+}
+.fourth-sec-col1 h4 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #333399;
+  padding-top: 10px;
+}
+.fourth-sec-col1 p {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  color: #565656;
+  padding: 5px 0px;
+}
+.fourth-sec-col1 h5 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #565656;
 }
 
 /* ---------------> */
@@ -242,6 +278,35 @@
     margin-top: 4px;
     width: 20px;
   }
+  /* Forth Sec Mob view */
+  .fourth-sec-col1 img {
+    margin-top: 5px;
+    width: 15%;
+  }
+  .fourth-sec-display {
+    display: block;
+    align-content: center;
+    padding: 2% 4%;
+  }
+  .fourth-sec-col-line {
+    border-bottom: 1px solid #565656;
+    max-height: 0px;
+    margin: 4% 4%;
+  }
+  .fourth-sec-col1 h4 {
+    font-size: 14px;
+    line-height: 26px;
+    padding-top: 10px;
+  }
+  .fourth-sec-col1 p {
+    font-size: 11px;
+    line-height: 14px;
+    padding: 5px 0px;
+  }
+  .fourth-sec-col1 h5 {
+    font-size: 12px;
+    line-height: 17px;
+  }
 }
 /* ----------------------------------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 /* ------------------------------- */
@@ -288,5 +353,26 @@
   }
   .third-sec-content {
     padding: 0% 10%;
+  }
+  /* Fourth Sec*/
+  .fourth-sec-display {
+    column-gap: 20px;
+  }
+  .fourth-sec-col-line {
+    height: 140px;
+  }
+  .fourth-sec-col1 h4 {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 10px;
+  }
+  .fourth-sec-col1 p {
+    font-size: 11px;
+    line-height: 10px;
+    padding: 5px 0px;
+  }
+  .fourth-sec-col1 h5 {
+    font-size: 12px;
+    line-height: 13px;
   }
 }
