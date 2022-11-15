@@ -301,6 +301,44 @@ function App() {
           </p>
         </div>
       </section>
+      {/* 9th Sec */}
+      <section class="fourth-sec">
+        <div class="fourth-sec-display">
+          <div class="fourth-sec-col1">
+            <img src="Assets/ninth-sec-col1.png" alt="" />
+            <h4>Upskill your Preparation!</h4>
+            <h5>
+              Experience the perfect blend of Live Webinars and Physical Classes
+              with real-time doubt clearance help. Witness our whopping 100+
+              Hours of Video Lectures on a Tablet and get an upper hand in
+              understanding the complex concepts. Also, get access to 1500+
+              practice questions, video solutions and official guide solutions.
+            </h5>
+          </div>
+          <div class="fourth-sec-col-line"></div>
+          <div class="fourth-sec-col1 fourth-sec-col2">
+            <img src="Assets/ninth-sec-col2.png" alt="" />
+            <h4>Train under the best!</h4>
+            <h5>
+              You get a chance to be trained under PN Santosh, 338-scorer, ISB
+              alumnus, and CAT Topper. Learn shortcuts and tricks to crack tough
+              GRE questions and know-how to solve questions in less time.
+            </h5>
+          </div>
+          <div class="fourth-sec-col-line"></div>
+          <div class="fourth-sec-col1">
+            <img src="Assets/ninth-sec-col3.png" alt="" />
+            <h4>Learn the techniques to crack GRE.</h4>
+            <h5>
+              Here, our industry-leading experts tutor you to solve GRE Problems
+              with proven and patented techniques that involves Mathematical
+              Approach to Reading Comprehension, Reverse Engineering approach to
+              Sentence Correction, Un-layering technique to Critical Reasoning,
+              and Translation technique to Math.
+            </h5>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
