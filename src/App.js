@@ -488,6 +488,137 @@ function App() {
           </div>
         </div>
       </section>
+      <section>
+        <div class="tenth-secs">
+          <div class="third-sec-head">
+            <p>Improve your Accuracy</p>
+          </div>
+          <div class="tenth-sec-cont">
+            <p>
+              A personalized Diagnostic Toolkit Software analyses the test
+              reports and displays various parameters like Accuracy %, Average
+              speed, time taken, and graphs signified with various colors. This
+              toolkit identifies the mistake and helps you with a video solution
+              that pops up on the specific concept.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="twelveth-sec">
+        <div class="third-sec-head">
+          <p>We are the best GRE Program</p>
+        </div>
+        <div class="twelveth-sec-Desktop-view">
+          <div class="twelveth-sec-cols-head">
+            <p>CareerLabs GRE Program</p>
+            <p>Factors</p>
+            <p>Other GRE Programs</p>
+          </div>
+          <div class="twelveth-sec-cols">
+            <div class="twelveth-sec-cols-width twelveth-col-right-align">
+              <div class="twelveth-sec-col-1">
+                <p>100+ hours of Prep</p>
+              </div>
+            </div>
+            <div class="twelveth-sec-col2-width">
+              <div class="twelveth-sec-col-2">
+                <p>Duration</p>
+              </div>
+            </div>
+            <div class="twelveth-sec-cols-width">
+              <div class="twelveth-sec-col-3">
+                <p>60-70 hours of Prep</p>
+              </div>
+            </div>
+          </div>
+          <div class="twelveth-sec-line-align">
+            <div class="twelveth-sec-col-line"></div>
+          </div>
+          <div class="twelveth-sec-cols">
+            <div class="twelveth-sec-cols-width twelveth-col-right-align">
+              <div class="twelveth-sec-col-1">
+                <p>Prepare with 338-scorer</p>
+              </div>
+            </div>
+            <div class="twelveth-sec-col2-width">
+              <div class="twelveth-sec-col-2">
+                <p>Faculties</p>
+              </div>
+            </div>
+            <div class="twelveth-sec-cols-width">
+              <div class="twelveth-sec-col-3">
+                <p>Frequent change in faculties</p>
+              </div>
+            </div>
+          </div>
+          <div class="twelveth-sec-line-align">
+            <div class="twelveth-sec-col-line"></div>
+          </div>
+          <div class="twelveth-sec-cols">
+            <div class="twelveth-sec-cols-width twelveth-col-right-align">
+              <div class="twelveth-sec-col-1">
+                <p>Flexible Program</p>
+              </div>
+            </div>
+            <div class="twelveth-sec-col2-width">
+              <div class="twelveth-sec-col-2 twelveth-sec-col-2-pad">
+                <p>Frequency of Classes</p>
+              </div>
+            </div>
+            <div class="twelveth-sec-cols-width">
+              <div class="twelveth-sec-col-3">
+                <p>Weekend time slots</p>
+              </div>
+            </div>
+          </div>
+          <div class="twelveth-sec-line-align">
+            <div class="twelveth-sec-col-line"></div>
+          </div>
+          <div class="twelveth-sec-cols">
+            <div class="twelveth-sec-cols-width twelveth-col-right-align">
+              <div class="twelveth-sec-col-1">
+                <p>Personalized Analytics</p>
+              </div>
+            </div>
+            <div class="twelveth-sec-col2-width">
+              <div class="twelveth-sec-col-2 twelveth-sec-col-2-pad">
+                <p>Accuracy Assessment</p>
+              </div>
+            </div>
+            <div class="twelveth-sec-cols-width">
+              <div class="twelveth-sec-col-3">
+                <p>Batch Assessment</p>
+              </div>
+            </div>
+          </div>
+          <div class="twelveth-sec-line-align">
+            <div class="twelveth-sec-col-line"></div>
+          </div>
+          <div class="twelveth-sec-cols">
+            <div class="twelveth-sec-cols-width twelveth-col-right-align">
+              <div class="twelveth-sec-col-1">
+                <p>Mathematical Approach to Verbal</p>
+              </div>
+            </div>
+            <div class="twelveth-sec-col2-width">
+              <div class="twelveth-sec-col-2 twelveth-sec-col-2-pad">
+                <p>Verbal Techniques</p>
+              </div>
+            </div>
+            <div class="twelveth-sec-cols-width">
+              <div class="twelveth-sec-col-3">
+                <p>Traditional way of Learning</p>
+              </div>
+            </div>
+          </div>
+          <div class="twelveth-sec-line-align">
+            <div class="twelveth-sec-col-line"></div>
+          </div>
+        </div>
+        <div class="twelveth-sec-mobile-view">
+          <img src="Assets/twelveth-sec-mob-img.png" alt="" />
+        </div>
+      </section>
     </>
   );
 }
