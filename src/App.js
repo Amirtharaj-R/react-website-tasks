@@ -1,3 +1,8 @@
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import ListItemIcon from "@mui/material/ListItemIcon";
+import ListItemText from "@mui/material/ListItemText";
+import PlayArrowOutlinedIcon from "@mui/icons-material/PlayArrowOutlined";
 import "./App.css";
 function App() {
   return (
@@ -423,50 +428,164 @@ function App() {
           <div class="eleventh-sec-col">
             <img src="Assets/eleventh-box-col-img1.png" alt="" />
             <h4>For Beginners</h4>
-            <ul>
-              <li>
-                Comprehensive Lectures: End-to-end guidance in your GRE
-                preparation
-              </li>
-              <li>
-                High-quality Classes: Get guidance from 330+ scorer professors
-              </li>
-              <li>
-                Guidance and Live Classes: on basic GRE quants and verbals
-              </li>
-              <li>
-                Revision Classes: Guided mentorship program and assessment of
-                fragile areas
-              </li>
-            </ul>
+            <List>
+              <ListItem className="Arrow-align">
+                <ListItemIcon>
+                  <PlayArrowOutlinedIcon className="Arrow" />
+                </ListItemIcon>
+                <ListItemText
+                  className="list-text"
+                  primary="Comprehensive Lectures: End-to-end guidance in your GRE preparation"
+                />
+              </ListItem>
+              <ListItem className="Arrow-align">
+                <ListItemIcon>
+                  <PlayArrowOutlinedIcon className="Arrow" />
+                </ListItemIcon>
+                <ListItemText
+                  className="list-text"
+                  primary="High-quality Classes: Get guidance from 330+ scorer professors"
+                />
+              </ListItem>
+              <ListItem className="Arrow-align">
+                <ListItemIcon>
+                  <PlayArrowOutlinedIcon className="Arrow" />
+                </ListItemIcon>
+                <ListItemText
+                  className="list-text"
+                  primary="Guidance and Live Classes: on basic GRE quants and verbals"
+                />
+              </ListItem>
+              <ListItem className="Arrow-align">
+                <ListItemIcon>
+                  <PlayArrowOutlinedIcon className="Arrow" />
+                </ListItemIcon>
+                <ListItemText
+                  className="list-text"
+                  primary="Revision Classes: Guided mentorship program and assessment of
+                  fragile areas"
+                />
+              </ListItem>
+            </List>
           </div>
           <div class="eleventh-sec-col">
             <img src="Assets/eleventh-box-col-img2.png" alt="" />
             <h4>For Intermediaries</h4>
-            <ul>
-              <li>
-                Well-defined structure: Official guide questions with solutions
-              </li>
-              <li>
-                Access to an adaptive question bank: Help you narrow down your
-                preparation
-              </li>
-              <li>
-                Revisit lectures: To focus only on your shaky areas and build up
-                the level
-              </li>
-              <li>Diagnostic Tool: To improve your weak areas</li>
-              <li>
-                90 percentile stage: Continuous self-assessment and customized
-                study plan to fill the gap between your current stage and the 90
-                percentile stage.
-              </li>
-            </ul>
+            <List>
+              <ListItem className="Arrow-align">
+                <ListItemIcon>
+                  <PlayArrowOutlinedIcon className="Arrow" />
+                </ListItemIcon>
+                <ListItemText
+                  className="list-text"
+                  primary="Well-defined structure: Official guide questions with solutions"
+                />
+              </ListItem>
+              <ListItem className="Arrow-align">
+                <ListItemIcon>
+                  <PlayArrowOutlinedIcon className="Arrow" />
+                </ListItemIcon>
+                <ListItemText
+                  className="list-text"
+                  primary="Access to an adaptive question bank: Help you narrow down your
+                  preparation"
+                />
+              </ListItem>
+              <ListItem className="Arrow-align">
+                <ListItemIcon>
+                  <PlayArrowOutlinedIcon className="Arrow" />
+                </ListItemIcon>
+                <ListItemText
+                  className="list-text"
+                  primary="Revisit lectures: To focus only on your shaky areas and build up
+                  the level"
+                />
+              </ListItem>
+              <ListItem className="Arrow-align">
+                <ListItemIcon>
+                  <PlayArrowOutlinedIcon className="Arrow" />
+                </ListItemIcon>
+                <ListItemText
+                  className="list-text"
+                  primary="Diagnostic Tool: To improve your weak areas"
+                />
+              </ListItem>
+              <ListItem className="Arrow-align">
+                <ListItemIcon>
+                  <PlayArrowOutlinedIcon className="Arrow" />
+                </ListItemIcon>
+                <ListItemText
+                  className="list-text"
+                  primary="90 percentile stage: Continuous self-assessment and customized
+                  study plan to fill the gap between your current stage and the 90
+                  percentile stage."
+                />
+              </ListItem>
+            </List>
           </div>
           <div class="eleventh-sec-col">
             <img src="Assets/eleventh-box-col-img3.png" alt="" />
             <h4>For Seasoned Students</h4>
-            <ul>
+            <List>
+              <ListItem className="Arrow-align">
+                <ListItemIcon>
+                  <PlayArrowOutlinedIcon className="Arrow" />
+                </ListItemIcon>
+                <ListItemText
+                  className="list-text"
+                  primary="Library of 1000+ practice questions"
+                />
+              </ListItem>
+              <ListItem className="Arrow-align">
+                <ListItemIcon>
+                  <PlayArrowOutlinedIcon className="Arrow" />
+                </ListItemIcon>
+                <ListItemText
+                  className="list-text"
+                  primary="Analysis and feedback on your weak areas with proper reasonings"
+                />
+              </ListItem>
+              <ListItem className="Arrow-align">
+                <ListItemIcon>
+                  <PlayArrowOutlinedIcon className="Arrow" />
+                </ListItemIcon>
+                <ListItemText
+                  className="list-text"
+                  primary="Attend lectures to improve your fragile areas"
+                />
+              </ListItem>
+              <ListItem className="Arrow-align">
+                <ListItemIcon>
+                  <PlayArrowOutlinedIcon className="Arrow" />
+                </ListItemIcon>
+                <ListItemText
+                  className="list-text"
+                  primary="Utilize Test Analyser to become familiar with the GRE Exam
+                  Pattern"
+                />
+              </ListItem>
+              <ListItem className="Arrow-align">
+                <ListItemIcon>
+                  <PlayArrowOutlinedIcon className="Arrow" />
+                </ListItemIcon>
+                <ListItemText
+                  className="list-text"
+                  primary="Personal consulting sessions with our mentors to get the
+                  best-laid schedule and timely reviews"
+                />
+              </ListItem>
+              <ListItem className="Arrow-align">
+                <ListItemIcon>
+                  <PlayArrowOutlinedIcon className="Arrow" />
+                </ListItemIcon>
+                <ListItemText
+                  className="list-text"
+                  primary="Opt for Admission Consulting Services and get a chance of
+                  admission in your dream grad school"
+                />
+              </ListItem>
+            </List>
+            {/* <ul>
               <li>Library of 1000+ practice questions</li>
               <li>
                 Analysis and feedback on your weak areas with proper reasonings
@@ -484,7 +603,7 @@ function App() {
                 Opt for Admission Consulting Services and get a chance of
                 admission in your dream grad school
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </section>
