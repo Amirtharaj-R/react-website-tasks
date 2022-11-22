@@ -95,7 +95,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  column-gap: 70px;
+  column-gap: 85px;
   margin-top: 10px;
   margin-bottom: 3%;
 }
@@ -103,7 +103,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  column-gap: 40px;
+  column-gap: 75px;
   margin-top: 10px;
   margin-bottom: 3%;
 }
